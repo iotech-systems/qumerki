@@ -1,0 +1,8 @@
+
+div.page-head {
+   width: 80vw;
+   height: 29vw;
+   margin: 4vh auto;
+   border: 4px solid rgb(9, 9, 138);
+   border-radius: 1vh;
+}
