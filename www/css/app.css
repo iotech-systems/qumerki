@@ -32,13 +32,13 @@ div.inputs {
    margin: 4vh auto;
 }
 
-div.input-line {
-}
+/* div.input-line {
+} */
 
 div.top-menu {
    width: 550px;
    height: 8vh;
-   line-height: 4vh;
+   line-height: 8vh;
    margin: 1vh auto;
 }
 
@@ -53,4 +53,12 @@ div.login, div.register {
    padding: 0 2vw;
    border: 2px solid rgb(9, 9, 138);
    border-radius: 4vh;
+}
+
+div.login {
+   margin-right: 2vw;
+}
+
+div.register {
+   margin-left: 2vw;
 }
