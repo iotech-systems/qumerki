@@ -1,6 +1,6 @@
 
 body {
-   background-color: rgb(238, 238, 238);
+   background-color: rgb(242, 243, 247);
 }
 
 /*div.page-frame {
@@ -57,9 +57,9 @@ div.login, div.register {
 }
 
 div.login {
-   margin-right: 2vw;
+   margin-right: 1vw;
 }
 
 div.register {
-   margin-left: 2vw;
+   margin-left: 1vw;
 }
