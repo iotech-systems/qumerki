@@ -74,7 +74,7 @@ div.btn {
 
 div.btn.clicked {
    border-width: 3px;
-   background-color: rgb(197, 197, 223);
+   background-color: rgb(228, 228, 240);
 }
 
 div.input-forms input {
