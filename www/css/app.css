@@ -57,11 +57,11 @@ div.login, div.register {
 }
 
 div.login {
-   margin-right: 1vw;
+   margin-right: 0.6vw;
 }
 
 div.register {
-   margin-left: 1vw;
+   margin-left: 0.6vw;
 }
 
 div.login:hover, div.register:hover {
