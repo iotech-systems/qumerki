@@ -39,7 +39,8 @@ div.top-menu {
    width: 550px;
    height: 8vh;
    line-height: 8vh;
-   margin: 1vh auto;
+   text-align: center;
+   margin: 4vh auto;
 }
 
 div.btn {
