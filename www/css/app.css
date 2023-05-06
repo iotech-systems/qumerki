@@ -72,3 +72,12 @@ div.input-forms input {
    width: 80%;
    font-size: 2.8vh;
 }
+
+div.input-line {
+   margin: 2vh auto;
+   text-align: center;
+}
+
+div.btn-login, div.btn-register {
+   font-size: 2vh;
+}
