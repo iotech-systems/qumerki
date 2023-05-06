@@ -1,4 +1,8 @@
 
+body {
+   background-color: rgb(238, 238, 238);
+}
+
 /*div.page-frame {
    width: 550px;
    height: 200px;
@@ -24,6 +28,9 @@ div.page-head {
 }
 
 div.inputs {
-   width: 550px;
+   width: 500px;
    margin: 4vh auto;
+}
+
+div.input-line {
 }
