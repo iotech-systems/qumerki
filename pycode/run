@@ -15,6 +15,12 @@ def create_account(email, tel):
    print([email, tel])
    return "OK"
 
+# POST: reset account
+# POST: login
+# POST: update account info
+# GET: get qrcode
+# GET: get account info
+
 
 # -- start here --
 
