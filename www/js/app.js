@@ -17,8 +17,13 @@ const app = {
       }
    },
 
-   fadeOutIn(outid, inid) {
-      $.fadeOut(`#${outid}`).fadeIn(`#${inid}`);
+   fadeOutIn(outID, inID) {
+      /* -- */
+      let fadein = function() {
+            $(`#${inID}`).fadeIn();
+         };
+      /* -- */
+      $(`#${outID}`).fadeOut(333, fadein);
       console.log(`#${outid} : #${inid}`);
    }
 
