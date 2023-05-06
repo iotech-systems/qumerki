@@ -6,10 +6,22 @@ const app = {
    },
 
    btnClick() {
-      alert(this.id);
-   }
-};
+      switch (this.id) {
+         case "btnRegisterForm":
+            app.fadeOutIn("iptFrmLogin", "iptFrmRegister");
+            break;
+         case "btnLoginForm":
+            app.fadeOutIn("iptFrmRegister", "iptFrmLogin");
+            break;
+         default:
+      }
+   },
 
+   fadeOutIn(outid, inid) {
+      $.fadeOut(`#${outid}`).fadeIn(`#${inid}`);
+   }
+
+};
 
 
 /* init */
