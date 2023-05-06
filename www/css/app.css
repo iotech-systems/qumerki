@@ -75,7 +75,7 @@ div.btn {
 div.input-forms input {
    width: 64%;
    font-size: 2.8vh;
-   padding: 8px;
+   padding: 8px;a
    border: 1px solid #dcdcdc;
    border-radius: 8px;
 }
@@ -86,5 +86,7 @@ div.input-line {
 }
 
 div.btn-login, div.btn-register {
-   font-size: 2vh;
+   font-size: 3.2vh;
+   padding: 4px;
+   border: 2px solid rgb(9, 9, 138);
 }
