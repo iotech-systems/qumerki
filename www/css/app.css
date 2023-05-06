@@ -67,3 +67,7 @@ div.register {
 div.login:hover, div.register:hover {
    cursor: pointer;
 }
+
+div.input-forms input {
+   font-size: 4vh;
+}
