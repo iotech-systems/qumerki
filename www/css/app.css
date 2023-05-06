@@ -64,6 +64,6 @@ div.register {
    margin-left: 1vw;
 }
 
-div.login, div.register :hover {
+div.login:hover, div.register:hover {
    cursor: pointer;
 }
