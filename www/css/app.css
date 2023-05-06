@@ -1,5 +1,5 @@
 
-div.page-head {
+/*div.page-frame {
    width: 550px;
    height: 200px;
    margin: 2vh auto;
@@ -9,4 +9,21 @@ div.page-head {
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
+}*/
+
+div.page-head {
+   width: 550px;
+   height: 200px;
+   margin: 8vh auto 0 auto;
+   border: 4px solid rgb(9, 9, 138);
+   border-radius: 1vh;
+   background-image: url(/imgs/qumerki1100x400.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+div.inputs {
+   width: 550px;
+   margin: 4vh auto;
 }
