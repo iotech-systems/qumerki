@@ -19,6 +19,7 @@ def create_account(email, tel):
 # POST: login
 # POST: update account info
 # POST: update numerki per account
+# POST: create qrcode
 # GET: get qrcode
 # GET: get account info
 # GET: get numerki per account
