@@ -6,6 +6,8 @@ const app = {
    },
 
    btnClick() {
+      $("div.btn").removeClass("clicked");
+      $(this).addCloass("clicked");
       switch (this.id) {
          case "btnRegisterForm":
             app.fadeOutIn("iptFrmLogin", "iptFrmRegister");

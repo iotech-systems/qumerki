@@ -72,6 +72,11 @@ div.btn {
    cursor: pointer;
 }
 
+div.btn.clicked {
+   border-width: 3px;
+   background-color: rgb(163, 163, 209);
+}
+
 div.input-forms input {
    width: 82%;
    font-size: 2.8vh;
