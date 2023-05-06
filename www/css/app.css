@@ -37,12 +37,20 @@ div.input-line {
 
 div.top-menu {
    width: 550px;
-   height: 6vh;
-   line-height: 6vh;
+   height: 8vh;
+   line-height: 4vh;
    margin: 1vh auto;
 }
 
 div.btn {
    display: inline-block;
    border: 2px solid rgb(9, 9, 138);
+}
+
+div.login, div.register {
+   height: 4vh;
+   line-height: 4vh;
+   padding: 0 2vw;
+   border: 2px solid rgb(9, 9, 138);
+   border-radius: 4vh;
 }
