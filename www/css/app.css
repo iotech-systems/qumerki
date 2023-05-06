@@ -1,10 +1,11 @@
 
 div.page-head {
-   width: 80vw;
-   height: 29vw;
+   width: 48vw;
    margin: 4vh auto;
    border: 4px solid rgb(9, 9, 138);
    border-radius: 1vh;
    background-image: url(/imgs/qumerki1100x400.png);
    background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
