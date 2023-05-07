@@ -29,7 +29,7 @@ const app = {
          };
       /* -- */
       $(`#${outID}`).fadeOut(333, fadein);
-      console.log(`#${outid} : #${inid}`);
+      console.log(`#${outID} : #${inID}`);
    },
 
    createNewAccount() {

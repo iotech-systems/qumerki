@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="352312f5-9c40-40ab-b910-ef9049db8ba5" name="Changes" comment="added pycode">
-      <change beforePath="$PROJECT_DIR$/pycode/core/dbOps.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/core/dbOps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycode/__qapp.wsgi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycode/run" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/__qapp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pycode/run</url>
+          <url>file://$PROJECT_DIR$/pycode/__qapp.py</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
