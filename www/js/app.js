@@ -15,6 +15,9 @@ const app = {
          case "btnLoginForm":
             app.fadeOutIn("iptFrmRegister", "iptFrmLogin");
             break;
+         case "btnCreate":
+            app.createNewAccount();
+            break;
          default:
       }
    },
@@ -27,6 +30,16 @@ const app = {
       /* -- */
       $(`#${outID}`).fadeOut(333, fadein);
       console.log(`#${outid} : #${inid}`);
+   },
+
+   createNewAccount() {
+      let email = $("#txtEmail").val(),
+         tel = $("#txtTel").val();
+      console.log([email, tel]);
+      let url = `/api/create-account/${email}/${tel}`;
+      $.post(url, {}, (resp)=> {
+            console.log(resp);
+         });
    }
 
 };

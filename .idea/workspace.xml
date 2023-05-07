@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352312f5-9c40-40ab-b910-ef9049db8ba5" name="Changes" comment="init load">
-      <change beforePath="$PROJECT_DIR$/www/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/idx.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/idx.html" afterDir="false" />
+    <list default="true" id="352312f5-9c40-40ab-b910-ef9049db8ba5" name="Changes" comment="added pycode">
+      <change beforePath="$PROJECT_DIR$/pycode/core/dbOps.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/core/dbOps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -62,11 +63,58 @@
       <option name="project" value="LOCAL" />
       <updated>1683322226923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added pycode">
+      <created>1683396503848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683396503848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added pycode">
+      <created>1683397539449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683397539449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added pycode">
+      <created>1683399268985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683399268985</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added pycode">
+      <created>1683399363439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683399363439</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added pycode">
+      <created>1683415598636</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683415598636</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init load" />
-    <option name="LAST_COMMIT_MESSAGE" value="init load" />
+    <MESSAGE value="added pycode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pycode" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pycode/run</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
