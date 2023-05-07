@@ -35,12 +35,19 @@ const app = {
    createNewAccount() {
       let ns = "#iptFrmRegister", 
          email = $(`${ns} #txtEmail`).val(),
-         tel = $(`${ns} #txtTel`).val();
+         ttel = $(`${ns} #txtTel`).val();
+      /* val data */
+      let [eml, tel] = app.validatData(email, ttel);
       console.log([email, tel]);
       let url = `/api/create-account/${email}/${tel}`;
       $.post(url, {}, (resp)=> {
             console.log(resp);
          });
+   },
+
+   validatData(eml, tel) {
+      tel = tel.replace(" ", "");
+      console.log([eml, tel]);
    }
 
 };
