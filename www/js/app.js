@@ -33,8 +33,9 @@ const app = {
    },
 
    createNewAccount() {
-      let email = $("#txtEmail").val(),
-         tel = $("#txtTel").val();
+      let ns = "#iptFrmRegister", 
+         email = $(`${ns} #txtEmail`).val(),
+         tel = $(`${ns} #txtTel`).val();
       console.log([email, tel]);
       let url = `/api/create-account/${email}/${tel}`;
       $.post(url, {}, (resp)=> {
