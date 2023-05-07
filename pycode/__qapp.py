@@ -4,7 +4,7 @@ import flask as _f
 import setproctitle
 
 
-HTTP_PORT = 8099
+HTTP_PORT = 8084
 APP_NAME = "qumerki"
 qapp = _f.Flask(APP_NAME, template_folder="www")
 
@@ -13,7 +13,7 @@ qapp = _f.Flask(APP_NAME, template_folder="www")
 @qapp.route("/api/create-account/<email>/<tel>", methods=["POST"])
 def create_account(email, tel):
    print([email, tel])
-   return "OK"
+   return f"{email} | {tel}"
 
 # POST: reset account
 # POST: login
