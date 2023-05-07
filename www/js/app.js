@@ -37,17 +37,18 @@ const app = {
          email = $(`${ns} #txtEmail`).val(),
          ttel = $(`${ns} #txtTel`).val();
       /* val data */
-      let [eml, tel] = app.validatData(email, ttel);
-      console.log([email, tel]);
+      let [eml, tel] = app.validateData(email, ttel);
+      console.log([eml, tel]);
       let url = `/api/create-account/${email}/${tel}`;
       $.post(url, {}, (resp)=> {
             console.log(resp);
          });
    },
 
-   validatData(eml, tel) {
+   validateData(eml, tel) {
       tel = tel.replaceAll(" ", "");
       console.log([eml, tel]);
+      return [eml, tel];
    }
 
 };
