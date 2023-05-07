@@ -46,7 +46,7 @@ const app = {
    },
 
    validatData(eml, tel) {
-      tel = tel.replace(" ", "");
+      tel = tel.replaceAll(" ", "");
       console.log([eml, tel]);
    }
 
