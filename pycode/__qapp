@@ -15,11 +15,14 @@ def create_account(email, tel):
    print([email, tel])
    return f"{email} | {tel}"
 
+# -- posts --
 # POST: reset account
 # POST: login
 # POST: update account info
 # POST: update numerki per account
 # POST: create qrcode
+
+# -- gets --
 # GET: get qrcode
 # GET: get account info
 # GET: get numerki per account
