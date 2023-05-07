@@ -10,7 +10,7 @@ qapp = _f.Flask(APP_NAME, template_folder="www")
 
 
 # -- api calls --
-@qapp.route("/api/create-account/<email>/<tel>", methods=["POST"])
+@qapp.route("/create-account/<email>/<tel>", methods=["POST"])
 def create_account(email, tel):
    print([email, tel])
    return f"{email} | {tel}"
